@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-image: cover; 
+    /*background-image: url(https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a20bc6324f6ef2969d9a7cae56b8d4d1&auto=format&fit=crop&w=1500&q=80);
+   */
+}
+
+header {
+    color:  black;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.begin {
+    margin: 0 auto;
+    border-radius: 20px;
+    width:70%;
+    height: 100%;
+    padding: 10px;
+    padding-top: 20px;
+    background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+    color: white;
+  
+  }
+label {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+
+}
+  
+  .rightTab {
+    display:inline-block;
+    width: 48%;
+    text-align: left;
+    align-content: left;
+    
+  }
+    
+  .input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    
+  }
+
+
+  #dropdown {
+    height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  }
+  
+  textarea {
+      width: 100%;
+      height: 100px;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      resize: none;
+  }
+  
+  #submit {
+      background-color: white ;
+      color: rgb(228, 13, 85);
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      padding: 10px 10px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  #submit:hover {
+      background-color:orange;
+      color: white;
+  }
+
+  
+  
+  @media screen and (max-width: 833px) {
+    .input-field {
+      width: 80%;
+    }
+    select {
+      width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .labels {
+      width: 100%;
+      text-align: left;
+    }
+    .rightTab {
+      width: 80%;
+      float: left;
+    }
+    .input-field {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+  }
